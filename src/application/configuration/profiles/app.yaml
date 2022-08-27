@@ -1,0 +1,9 @@
+app:
+  application_name: eqsmart consumer
+  env: dev
+
+consumer:
+  alive: 20
+  reconnect:
+    count: 10
+    alive: 15

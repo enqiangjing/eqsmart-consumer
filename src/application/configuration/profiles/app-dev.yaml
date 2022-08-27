@@ -1,0 +1,13 @@
+provider:
+  port: 7802
+  buf_size: 204800
+  backlog: 5
+  weight: 2
+  ip: 127.0.0.1 # 注册中心地址，用于发送服务注册数据
+  host: 0.0.0.0 # 服务启动 IP
+
+eqlink:
+  ip: 127.0.0.1
+  port: 7800
+  buf_size: 102400
+  backlog: 5
