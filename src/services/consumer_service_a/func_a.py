@@ -7,6 +7,6 @@ def service(a, b):
     res = {
         'remote_a': remote_response,
         'func_consumer_a': str(a) + ' -- ' + str(b),
-        'application_name': AC.read_conf('app.application_name')
+        'application_name': AC.read_conf('app.application.name')
     }
     return res
