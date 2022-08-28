@@ -10,6 +10,6 @@ class AllConf(LoadConf):
         """
         配置节点读取
         :param node: 节点名称，如 a.b.c
-        :return: 节点指
+        :return: 节点值
         """
         return self.node_read(node)
